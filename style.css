@@ -64,9 +64,9 @@ html {
     color: darkblue;
   }
 .section{
-    background-image: url(/capybaras-pantanal-brazil-wallpaper-preview.jpg);
+    background-image: url(capybaras-pantanal-brazil-wallpaper-preview.jpg);
     background-repeat: no-repeat;
-    background-attachment:    cover;
+    background-size:cover;
     padding: 100px 0;
 }
 .titulo-real {
