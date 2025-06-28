@@ -1,0 +1,76 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+    font-size: 6rem;
+  }
+  
+  .titulo {
+    background-color: lightblue;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: floralwhite;
+    padding: 1rem 2rem;
+  }
+  
+  .nav-bg {
+    background-color: rebeccapurple;
+  }
+  
+  .navegacion-principal {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    .navegacion-principal {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .contenedor {
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+.navegacion-principal a {
+    color: floralwhite;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: block;
+  }
+  
+.navegacion-principal a:hover {
+    background-color: lightgray;
+    color: darkblue;
+  }
+.section{
+    background-image: url(/capybaras-pantanal-brazil-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-attachment:    cover;
+    padding: 100px 0;
+}
+.titulo-real {
+    text-align: center;
+    height: 45rem;
+
+}
