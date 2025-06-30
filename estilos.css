@@ -1,9 +1,15 @@
+
 html {
     font-size: 62.5%;
+      box-sizing: border-box;
   }
-  
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
   body {
     font-size: 16px;
+    margin: 0;
+    background-color: white !important;
   }
   
   h1 {
@@ -13,7 +19,9 @@ html {
   }
   
   .titulo {
-    background-color: lightblue;
+    background-color: rgb(173, 182, 230);
+    margin: 0;
+    padding: 2rem 0;
   }
   
   p {
@@ -30,6 +38,9 @@ html {
   
   .nav-bg {
     background-color: rebeccapurple;
+      margin: 0;
+      padding: 0;
+      width: 100%;
   }
   
   .navegacion-principal {
@@ -63,14 +74,39 @@ html {
     background-color: lightgray;
     color: darkblue;
   }
-.section{
+.section {
     background-image: url(fondo.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-    padding: 100px 0;
+    background-size: cover;
+    background-position: center 40%; /* Muestra más de la parte superior donde están los capibaras */
+    position: relative;
+    min-height: 600px;
 }
 .titulo-real {
     text-align: center;
     height: 45rem;
 
 }
+.contenido-hero {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+.contenido-hero h2 ,.contenido-hero p ,.contenido-hero svg {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+ 
+
+  main {
+    padding: 2rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: white;
+  }
+  
